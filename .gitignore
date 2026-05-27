@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# VS Code
+.vscode/
+
+# Data and models
+*.sqlite3
+*.npy
+*.npz
+*.h5
+*.pth
+*.pt
+*.ckpt
+
+# Docker
+*.pid
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Other
+*.swp
+*.bak
+*.tmp
+
+# Ignore dataset, embeddings, DB, and remote kernel (all subfolders)
+dataset/
+embeddings/
+chroma_db/
+remote-kernel/
+
+# Ignore test outputs and results
+evaluation/results.json
+evaluation/*.log
+
+# Ignore static build outputs
+static/images/
+
+# Ignore all .env files
+*.env
+*.env.*
+
+# Ignore Python virtual environments anywhere
+*/venv/
+*/.venv/
+*/ENV/
+*/env/
+
+# Ignore pycache everywhere
+**/__pycache__/
+
+# Ignore notebook checkpoints everywhere
+**/.ipynb_checkpoints/

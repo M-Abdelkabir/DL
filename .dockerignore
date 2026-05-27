@@ -1,0 +1,16 @@
+.venv/
+remote-kernel/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.git/
+.gitignore
+notebooks/
+Rapport_DL/
+*.docx
+*.ipynb_checkpoints/
+evaluation/results.json

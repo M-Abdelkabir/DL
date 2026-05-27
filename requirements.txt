@@ -1,0 +1,9 @@
+flask>=3.0,<4
+groq>=0.9,<1
+chromadb>=0.5,<1
+sentence-transformers>=3.0,<6
+torch>=2.4,<3
+transformers>=4.36,<5
+numpy>=1.26,<3
+tqdm>=4.66,<5
+pytest>=8.0,<9

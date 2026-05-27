@@ -1,0 +1,25 @@
+services:
+  fssm-chatbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fssm-chatbot:cpu
+    container_name: fssm-chatbot
+    ports:
+      - "5000:5000"
+    environment:
+      PORT: "5000"
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-llama-3.3-70b-versatile}
+      LLM_MAX_TOKENS: ${LLM_MAX_TOKENS:-1024}
+      LLM_TEMPERATURE: ${LLM_TEMPERATURE:-0.2}
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./embeddings:/app/embeddings:ro
+      - hf-cache:/app/.cache/huggingface
+      - sentence-cache:/app/.cache/sentence-transformers
+    restart: unless-stopped
+
+volumes:
+  hf-cache:
+  sentence-cache:

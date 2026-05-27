@@ -1,0 +1,212 @@
+[
+  {
+    "id": "eval_001",
+    "question": "Quels documents sont nécessaires pour s'inscrire à la FSSM ?",
+    "ground_truth": "Pour s'inscrire à la FSSM, il faut fournir une copie certifiée du baccalauréat, la carte nationale d'identité (CIN) et une photocopie, des photos d'identité récentes, le formulaire d'inscription dûment rempli et le reçu de paiement des frais de scolarité.",
+    "category": "administratif",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_002",
+    "question": "Comment obtenir une attestation d'inscription à la FSSM ?",
+    "ground_truth": "L'attestation d'inscription est délivrée par le service de scolarité de la FSSM sur présentation de la carte étudiant. Elle peut aussi être demandée via la plateforme e-scolarité : scolarite-fssm.uca.ma.",
+    "category": "administratif",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_003",
+    "question": "Comment s'inscrire en master à la FSSM ?",
+    "ground_truth": "La candidature aux masters de la FSSM se fait via la plateforme e-candidature.uca.ma. Il faut créer un compte, sélectionner la filière, et soumettre les documents requis : relevés de notes, CV, lettre de motivation et diplôme de licence.",
+    "category": "administratif",
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval_004",
+    "question": "Quelle est la procédure de réinscription à la FSSM ?",
+    "ground_truth": "La réinscription se fait via la plateforme en ligne reinscription.fssm.uca.ma. Il faut se connecter avec ses identifiants UCA, vérifier ses informations personnelles et payer les frais de scolarité en ligne ou à la banque.",
+    "category": "administratif",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_005",
+    "question": "Comment accéder à la plateforme E-Campus de la FSSM ?",
+    "ground_truth": "La plateforme E-Campus est accessible sur ecampus-fssm.uca.ma. Les étudiants se connectent avec leur compte académique UCA pour accéder aux cours, emplois du temps et ressources pédagogiques.",
+    "category": "administratif",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_006",
+    "question": "Quelles filières de licence sont proposées à la FSSM ?",
+    "ground_truth": "La FSSM propose plusieurs filières : Mathématiques et Informatique (MI), Sciences de la Matière Physique (SMP), Sciences de la Matière Chimie (SMC), Sciences de la Vie et de la Terre (SVT), Sciences de la Terre et du Territoire (STT), ainsi que des licences professionnelles.",
+    "category": "formations",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_007",
+    "question": "Quelle est la durée d'une licence à la FSSM ?",
+    "ground_truth": "La licence à la FSSM dure 3 ans soit 6 semestres, conformément au système LMD. Elle est divisée en un cycle tronc commun (S1-S2) et un cycle de spécialisation (S3-S6). Chaque semestre correspond à 30 crédits ECTS.",
+    "category": "formations",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_008",
+    "question": "Qu'est-ce que le CeDoc de la FSSM et comment s'y inscrire ?",
+    "ground_truth": "Le CeDoc (Centre Doctoral) de la FSSM est la structure responsable de la gestion administrative et pédagogique des doctorants. L'inscription se fait via e-candidature.uca.ma ou cedoc-fssm.uca.ma. Il faut fournir un diplôme de master, l'accord d'un directeur de thèse et un projet de recherche.",
+    "category": "formations",
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval_009",
+    "question": "Quels masters sont disponibles à la FSSM ?",
+    "ground_truth": "La FSSM propose des masters en Mathématiques et Applications, Informatique et Intelligence Artificielle, Physique des Matériaux, Chimie Analytique, Sciences de la Vie, Sciences de l'Environnement, Ingénierie de la Métrologie et de la Qualité (IMQ), et d'autres filières interdisciplinaires.",
+    "category": "formations",
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval_010",
+    "question": "Quelle est la durée d'un doctorat à la FSSM ?",
+    "ground_truth": "La durée réglementaire d'un doctorat à la FSSM est de 3 ans minimum. Des prolongations peuvent être accordées sur justification selon l'avancement des travaux de recherche et les décisions du CeDoc.",
+    "category": "formations",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_011",
+    "question": "Combien d'absences sont tolérées par module à la FSSM ?",
+    "ground_truth": "À la FSSM, le taux d'absence toléré est de 25% par module. Au-delà de ce seuil, l'étudiant peut être déclaré défaillant et exclu de l'examen du module concerné. Les absences justifiées peuvent être acceptées sur présentation de justificatifs officiels.",
+    "category": "pedagogie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_012",
+    "question": "Comment valide-t-on un module à la FSSM ?",
+    "ground_truth": "Un module est validé à la FSSM lorsque la note finale, calculée à partir du contrôle continu (40%) et de l'examen final (60%), est supérieure ou égale à 10/20. Pour les modules non compensables, cette note est obligatoire.",
+    "category": "pedagogie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_013",
+    "question": "Comment fonctionne la compensation entre modules à la FSSM ?",
+    "ground_truth": "La compensation permet de valider un semestre malgré une note inférieure à 10/20 dans certains modules compensables, si la moyenne générale du semestre est supérieure ou égale à 10/20. Les modules non compensables doivent obligatoirement être validés avec une note d'au moins 10/20.",
+    "category": "pedagogie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval_014",
+    "question": "Quand a lieu la session de rattrapage à la FSSM ?",
+    "ground_truth": "La session de rattrapage à la FSSM se tient en février pour le semestre 1 (S1) et en juillet pour le semestre 2 (S2), quelques semaines après la publication des résultats de la session normale.",
+    "category": "pedagogie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_015",
+    "question": "Quelles sont les règles concernant le redoublement à la FSSM ?",
+    "ground_truth": "Un étudiant peut redoubler à la FSSM lorsque sa moyenne semestrielle est inférieure à 10/20 et qu'il ne peut pas bénéficier de la compensation. Le redoublement est limité à deux fois par semestre. La durée maximale de scolarité pour la licence est de 9 ans.",
+    "category": "pedagogie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval_016",
+    "question": "Comment se déroulent les examens à la FSSM ?",
+    "ground_truth": "Les examens à la FSSM se déroulent en salle désignée à la fin de chaque semestre. L'étudiant doit se présenter avec sa carte étudiant. Les salles et horaires sont affichés sur les panneaux du campus et sur E-Campus. Tout usage de téléphone ou triche est strictement interdit.",
+    "category": "pedagogie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_017",
+    "question": "Qu'est-ce que le système LMD à la FSSM ?",
+    "ground_truth": "Le système LMD (Licence-Master-Doctorat) est le cadre de référence de l'enseignement supérieur marocain adopté par la FSSM. Il organise les études en trois cycles : Licence (3 ans, 180 ECTS), Master (2 ans, 120 ECTS supplémentaires) et Doctorat (3 ans minimum), avec validation par crédits ECTS.",
+    "category": "pedagogie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval_018",
+    "question": "Combien de crédits ECTS faut-il valider par semestre à la FSSM ?",
+    "ground_truth": "Chaque semestre de licence à la FSSM correspond à 30 crédits ECTS. La validation complète du semestre permet d'acquérir ces 30 crédits. Une licence complète représente 180 crédits ECTS sur 6 semestres.",
+    "category": "pedagogie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_019",
+    "question": "Quels départements scientifiques existent à la FSSM ?",
+    "ground_truth": "La FSSM comprend plusieurs départements : Mathématiques et Informatique (MI), Physique, Chimie, Sciences de la Vie (Biologie/SVT) et Sciences de la Terre (Géologie/STT). Chaque département gère ses propres formations et activités de recherche.",
+    "category": "universite",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_020",
+    "question": "Où est située la FSSM et comment y accéder ?",
+    "ground_truth": "La FSSM est située Avenue Prince Moulay Abdallah, BP 2390, Marrakech 40000, dans le quartier Semlalia. Elle est accessible par bus urbain, petits taxis, ou à pied depuis les quartiers proches. Un parking est disponible pour les étudiants.",
+    "category": "universite",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_021",
+    "question": "Qu'est-ce que le parcours d'excellence pour les masters à la FSSM ?",
+    "ground_truth": "Le parcours d'excellence est une voie d'accès sélective aux masters de la FSSM disponible via pemaster-fssm.uca.ma. Il est réservé aux étudiants ayant d'excellents résultats académiques et permet un accès privilégié à certaines filières de master.",
+    "category": "formations",
+    "difficulty": "hard"
+  },
+  {
+    "id": "eval_022",
+    "question": "Comment justifier une absence à la FSSM ?",
+    "ground_truth": "Pour justifier une absence à la FSSM, l'étudiant doit fournir un document officiel comme un certificat médical ou une convocation administrative auprès du secrétariat de son département, dans les délais définis par le règlement pédagogique.",
+    "category": "pedagogie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval_023",
+    "question": "Quels sont les débouchés après une licence à la FSSM ?",
+    "ground_truth": "Après une licence à la FSSM, les étudiants peuvent poursuivre en master ou en licence professionnelle, passer des concours de la fonction publique (enseignement, administration), ou accéder au marché du travail dans les domaines liés à leur spécialité scientifique.",
+    "category": "formations",
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval_024",
+    "question": "Existe-t-il un restaurant universitaire à la FSSM ?",
+    "ground_truth": "Un restaurant universitaire est disponible pour les étudiants de la FSSM, géré par l'ONOUSC. Des repas subventionnés y sont proposés à tarif réduit pour les étudiants boursiers et les étudiants régulièrement inscrits.",
+    "category": "universite",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_025",
+    "question": "Comment accéder à la bibliothèque numérique de la FSSM ?",
+    "ground_truth": "La bibliothèque numérique de la FSSM est accessible via biblio-fssm.uca.ma. Les étudiants peuvent y accéder avec leurs identifiants académiques pour consulter des bases de données, des revues scientifiques en ligne et des ouvrages numériques.",
+    "category": "universite",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_026",
+    "question": "Peut-on faire une cotutelle de thèse à la FSSM ?",
+    "ground_truth": "Oui, la FSSM dispose d'un cadre pour les cotutelles de thèse avec des universités étrangères. Ce dispositif permet de préparer sa thèse sous la direction de deux encadrants issus de deux établissements différents et d'obtenir un diplôme bi-national.",
+    "category": "formations",
+    "difficulty": "hard"
+  },
+  {
+    "id": "eval_027",
+    "question": "La note du contrôle continu est-elle conservée lors du rattrapage à la FSSM ?",
+    "ground_truth": "À la FSSM, la note de contrôle continu (CC) est généralement conservée lors du passage en session de rattrapage. La note finale est recalculée avec la nouvelle note d'examen final et le CC initial selon la pondération CC 40% / examen 60%.",
+    "category": "pedagogie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval_028",
+    "question": "L'UCA participe-t-elle au programme Erasmus+ ?",
+    "ground_truth": "Oui, l'UCA participe au programme Erasmus+, permettant à ses étudiants et enseignants d'effectuer des séjours dans des universités européennes partenaires. Les appels à candidature sont publiés sur le site de la présidence et des facultés concernées.",
+    "category": "universite",
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval_029",
+    "question": "Quelles mentions peut-on obtenir à la FSSM ?",
+    "ground_truth": "Les mentions à la FSSM sont : Passable (10 à 11,99/20), Assez Bien (12 à 13,99/20), Bien (14 à 15,99/20) et Très Bien (16/20 et plus). Elles sont attribuées sur la base de la moyenne générale finale du cursus.",
+    "category": "pedagogie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval_030",
+    "question": "Comment est sécurisée la salle d'examen à la FSSM et que risque-t-on en cas de fraude ?",
+    "ground_truth": "Les examens à la FSSM sont surveillés par des enseignants désignés qui vérifient les identités et contrôlent le respect des règles. En cas de fraude, un rapport est établi et transmis à la direction. Les sanctions vont de la note zéro à l'exclusion temporaire ou définitive de l'université selon la gravité.",
+    "category": "pedagogie",
+    "difficulty": "hard"
+  }
+]

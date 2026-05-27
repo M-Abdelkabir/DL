@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Assistant IA de la Faculté des Sciences Semlalia — Université Cadi Ayyad">
+  <title>FSSM Assistant — UCA Marrakech</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="icon" href="https://www.uca.ma/public/website/theme-2/img/logo.png" type="image/png">
+</head>
+<body>
+
+  <!-- ══ HEADER ══ -->
+  <header class="header">
+    <div class="header-logo">
+      <!-- Cap/diploma icon -->
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/>
+      </svg>
+    </div>
+    <div class="header-info">
+      <div class="header-title">FSSM Assistant</div>
+      <div class="header-subtitle">Faculté des Sciences Semlalia · UCA Marrakech</div>
+    </div>
+    <div class="header-status">
+      <div class="status-dot"></div>
+      En ligne
+    </div>
+  </header>
+
+  <!-- ══ CHAT WRAPPER ══ -->
+  <main class="chat-wrapper">
+
+    <!-- ── Messages ── -->
+    <div class="messages-area" id="messages-area">
+
+      <!-- Welcome state (disparaît au 1er message) -->
+      <div class="welcome-block" id="welcome-block">
+        <div class="welcome-icon">
+          <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg>
+        </div>
+        <h1 class="welcome-title">Bonjour, comment puis-je vous aider ?</h1>
+        <p class="welcome-text">
+          Je suis l'assistant IA de la FSSM. Posez-moi vos questions sur les formations, inscriptions, examens et la vie universitaire.
+        </p>
+        <div class="suggestions-grid">
+          <button class="suggestion-btn" data-query="Quelles sont les filières disponibles à la FSSM ?">
+            <span class="suggestion-icon">🎓</span>
+            Filières disponibles à la FSSM
+          </button>
+          <button class="suggestion-btn" data-query="Comment s'inscrire en master à l'UCA ?">
+            <span class="suggestion-icon">📝</span>
+            S'inscrire en master
+          </button>
+          <button class="suggestion-btn" data-query="Quelles sont les conditions d'accès pour les nouveaux bacheliers ?">
+            <span class="suggestion-icon">📋</span>
+            Conditions d'accès bacheliers
+          </button>
+          <button class="suggestion-btn" data-query="Comment consulter mes notes et résultats ?">
+            <span class="suggestion-icon">📊</span>
+            Consulter mes notes
+          </button>
+        </div>
+      </div>
+
+    </div><!-- /messages-area -->
+
+    <!-- ── Quick chips ── -->
+    <div class="quick-actions" id="quick-actions">
+      <button class="quick-chip" data-query="Calendrier des examens">📅 Examens</button>
+      <button class="quick-chip" data-query="Réinscription en ligne">🔄 Réinscription</button>
+      <button class="quick-chip" data-query="Contact et adresse de la FSSM">📍 Contact</button>
+      <button class="quick-chip" data-query="Emploi du temps">🗓 Emploi du temps</button>
+      <button class="quick-chip" data-query="Bourses et aides étudiantes">💰 Bourses</button>
+      <button class="quick-chip" data-query="Doctorat et formation doctorale FSSM">🔬 Doctorat</button>
+    </div>
+
+    <!-- ── Input zone ── -->
+    <div class="input-zone">
+      <div class="input-container">
+        <textarea
+          id="user-input"
+          placeholder="Posez votre question sur la FSSM…"
+          rows="1"
+          autocomplete="off"
+          autocorrect="off"
+          spellcheck="false"
+          aria-label="Votre question"
+        ></textarea>
+        <button class="send-btn" id="send-btn" aria-label="Envoyer" title="Envoyer (Entrée)">
+          <svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+        </button>
+      </div>
+      <p class="input-hint">Entrée pour envoyer · Maj+Entrée pour sauter une ligne</p>
+    </div>
+
+  </main>
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="footer">
+    FSSM · <a href="https://www.uca.ma/fssm/fr" target="_blank" rel="noopener">uca.ma/fssm</a>
+    · Av. Prince My Abdellah, Marrakech 40000
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
